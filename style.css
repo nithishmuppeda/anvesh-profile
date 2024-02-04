@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 110%;
+    scroll-behavior: smooth;
+    position: relative;
+}
+textarea{
+    resize: none;
+}
+
+.header{
+       position: fixed;
+       width: 100%;
+       z-index: 1000;
+    
+    }
+ 
+.head{
+    height: 100px;
+    width: 100%;
+    background-color: #f2f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: color .3s; 
+}
+.logo-pic{
+    display: flex;
+    margin-left:30px ;
+}
+.logo-pic img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.name{
+    padding: 0 20px;
+    margin-top: 7px ;
+    transform: color .3s;
+}
+.name:hover{
+    color: #28285f;
+}
+.items{
+    font-size: 0.9rem;
+    margin-left: 400px;
+    font-weight: 800;
+    
+    }
+    .header__link{
+        transition: color .3s; 
+    }
+    .header__link:hover{
+        color: #0b0bec;
+    }
+.items a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 30px;
+    letter-spacing: 1px;
+
+}
+    .hero-section{
+        height: 800px;
+        background-color: rgb(72, 145, 247);
+        text-align: center;
+        padding-top: 210px;
+    }
+    .first{
+        font-size: 30px;
+        color: white;
+        font-weight: 500;
+    }
+    .text{
+        font-size: 30px;
+        color: white;
+        font-weight: 500;
+        padding-top: 60px;
+    }
+    .project{
+        padding-top: 80px;
+        
+     }
+     .project button{
+        width: 270px;
+        height: 70px;
+        border-radius: 5px;
+        border-color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+        
+     }
+       
+    .project a {
+        font-size: 25px;
+        color: black;
+        font-weight: 500;
+        text-decoration: none;
+      }
+     .mouse{
+         
+        height: 40px;
+        width: 25px;
+        border: 2px solid white;
+        margin-left: 49%;
+        margin-top: 220px;
+        border-radius: 50px;
+     }
+     .second{
+        height: 210px;
+        text-align: center;
+        
+       
+     }
+     .about{
+        font-size: 1.4rem;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        padding-top: 70px;
+     }
+     .mark {
+        background-color: rgb(72, 145, 247);
+        height:6px;
+        width: 40px;
+        margin: 18px 49%;
+        border-radius: 3px;
+        
+    }
+    .text1{
+        padding-top: 15px;
+        font-size: 23px;
+        font-weight: lighter;
+        color: #777;
+    }
+    .third{
+       height: 280px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+    .slide1{
+        width: 50%;
+        margin-left: 10%;
+    }
+    .get{
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .text2{
+        margin-top: 25px;
+        font-size: 21px;
+        color: #777;
+        font-weight: lighter;
+        width: 80%;
+    }
+    .slide2{
+        width: 40%;
+        
+    }
+    .my{
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-left: 33px;
+    }
+    .navbar{
+        padding: 25px;
+ 
+    }
+    .navbar p{
+        font-size: 1.2rem;
+        color: #777;
+        text-transform: capitalize;
+        font-weight:bold;
+    }
+    .navbar button{
+        height: 40px;
+        width: 80px;
+        margin: 5px 5px;
+        border: none;
+        border-radius: 5px;
+    }
+    .contact{
+        margin-left: 10%;
+        height:150PX ;
+        
+        
+    }
+    .contact button{
+        width: 240px;
+        height: 65px;
+        border-radius: 5px;
+        border-color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+        background-color:rgb(72, 145, 247) ;
+        color: white;
+        
+    }
+    .fourth{
+        height: 210px;
+        text-align: center;
+    }
+    .prj{
+        font-size: 1.9rem;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        padding-top: 70px;
+    }
+    .text4{
+        padding-top: 15px;
+        font-size: 23px;
+        font-weight: lighter;
+        color: #777;
+    }
+    .prjs {
+        
+    margin-top: 130px;
+        
+    }
+    .prj1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .prj1-img{
+     margin-left: 100px;
+    }
+
+    .prj1-prj1 {
+    margin-left: 33%; 
+    width: 30%;  
+    }
+   .prj1-name{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: 500;  
+   }
+    .prj1-matter{
+    margin-top: 30px;
+    font-size: 21px;
+    color: #777;
+    font-weight: lighter;
+   }
+   .prj1-link{
+    margin-top: 30px;
+
+   }
+    .prj1-link button {
+        width: 220px;
+        height: 55px;
+        border-radius: 5px;
+        border-color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+        background-color:rgb(72, 145, 247) ;
+        color: white;
+        
+    }
+    .prj1-link button p{
+        color: white;
+        font-size: 1.3rem;
+    }
+    .sixth{
+        margin-top: 130px;
+    }
+    .prjs2{
+        margin-top: 130px;
+    }
+    .prjs3{
+        margin-top: 130px;
+    }
+    .prjs4{
+        margin-top: 130px;
+    }
+    .prjs5{
+        margin-top: 130px;
+    }
+    .prjs6{
+        margin-top: 130px;
+    }
+    .prjs7{
+        margin-top: 130px;
+    }
+    .fifth{
+        background-color:rgb(72, 145, 247) ;
+        height: 1000px;
+        width: 100%;
+        margin-left: auto;
+        margin-top: 130px;
+    }
+    .co-main {
+        height: 210px;
+        text-align: center;
+        b
+    }
+    .co-name {
+        font-size: 1.9rem;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        padding-top: 70px;
+        color: white;
+    }
+    .mark1{
+        background-color: white;
+        height:6px;
+        width: 40px;
+        margin: 18px 49%;
+        border-radius: 3px;
+        
+    }
+    .text5{
+        padding-top: 15px;
+        font-size: 23px;
+        font-weight: lighter;
+        color: white;
+    } 
+    .contact-main{
+        width: 60%;
+        height: 700px;
+        background-color: white;
+        margin: 50px auto;
+        padding: 30px;
+
+    }
+    .contact-form-main{
+        margin-top: 20px;
+    }
+    .contact-form-label{
+        display: block;
+        color: #666;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+   .contact-form-input{
+        width: 100%;
+        padding: 0.8rem;
+        margin-top: 7px;
+        color: #666;
+        background-color: #f0f0f0;
+        font-size: 1.1rem;
+        text-transform: capitalize;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        outline: none;
+        font-weight: 700;
+        }
+        
+    .contact-submit{
+        width: 210px;
+        height: 55px;
+        border-radius: 5px;
+        border-color: white;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+        background-color:rgb(72, 145, 247) ;
+        color: white;
+        position: relative;
+        left: 600px;
+        top:  80px;
+
+    }
+
+  
+ 
+ .inform-end{
+    background-color: black;
+    height: 350px;
+ }
+ .upper{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 70px;
+ }
+ .upper-slide1{
+
+    width: 40%;
+    padding-left: 100px;
+ }
+ .upper-slide1 h1 {
+    font-size: 1.1rem;
+    font-weight: 700px;
+ }
+ .upper-slide1 p {
+    font-size: .9rem;
+ }
+ .upper-slide2{
+    padding-right: 200px;
+ }
+ .upper-slide2 h1{
+    font-size: 1.2rem;
+    font-weight: 700px;
+ }
+
+
+ .social-icons a i{
+    font-size: 1.5rem;
+    padding-right: 20px;
+    color: white;
+ }
+ .line{
+    height: 1px;
+    color: white;
+    background-color: white;
+    width: 90%;
+    margin:  30px auto;
+ }
